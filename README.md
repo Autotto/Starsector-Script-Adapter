@@ -1,9 +1,9 @@
-# S3A: Startsector-Script-Adapter
+# S3A: Starsector-Script-Adapter
 
 Notice: AI Slop
 
 ## Intro
-**S**tart**s**ector-**S**cript-**A**dapter AKA **`S3A`** is A pure AI Slop, Generated with Human Supervising.  
+**S**tar**s**ector-**S**cript-**A**dapter AKA **`S3A`** is A pure AI Slop, Generated with Human Supervising.  
 this IS NOT RANDOM SHIT BY WISH CODING, we have known we are doing what.
 
 This AI Shit can make you Adapting Janino `2.x` with Custom Compiler Backend,   

@@ -1,0 +1,25 @@
+[versions]
+janino = "2.7.8"
+ecj = "3.46.100"
+rfb = "1.1.2"
+log4j2 = "2.26.1"
+asm = "9.9.1"
+junit = "5.10.0"
+jmh = "1.37"
+
+[libraries]
+janino = { module = "org.codehaus.janino:janino", version.ref = "janino" }
+janino-commons-compiler = { module = "org.codehaus.janino:commons-compiler", version.ref = "janino" }
+janino-commons-compiler-jdk = { module = "org.codehaus.janino:commons-compiler-jdk", version.ref = "janino" }
+ecj = { module = "org.eclipse.jdt:ecj", version.ref = "ecj" }
+rfb = { module = "com.gtnewhorizons.retrofuturabootstrap:RetroFuturaBootstrap", version.ref = "rfb" }
+log4j-api = { module = "org.apache.logging.log4j:log4j-api", version.ref = "log4j2" }
+log4j-core = { module = "org.apache.logging.log4j:log4j-core", version.ref = "log4j2" }
+asm-core = { module = "org.ow2.asm:asm", version.ref = "asm" }
+asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "asm" }
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "jmh" }
+jmh-generator-bytecode = { module = "org.openjdk.jmh:jmh-generator-bytecode", version.ref = "jmh" }
+jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "jmh" }

@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'com.gradleup.shadow' version '9.4.3'
+}
+
+group = 'io.github.nanoforged'
+version = '0.1.0'
+
+repositories {
+    maven { url = 'https://maven.aliyun.com/repository/public/' }
+    maven { url = 'https://maven.aliyun.com/repository/central' }
+    maven { url = 'https://maven.fabricmc.net/' }
+    maven { url = 'https://nexus.gtnewhorizons.com/repository/releases/' }
+}
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(17) }
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+
+dependencies {
+    implementation libs.ecj
+    compileOnly libs.janino.commons.compiler
+    compileOnly(libs.rfb) { transitive = false }
+}

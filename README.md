@@ -3,7 +3,7 @@
 Notice: AI Slop
 
 ## Intro
-**S**tart**s**ector-**S**cript-**A**dapter AKA **`S3A`** is A pure AI Slop Generating with Human Supervising.  
+**S**tart**s**ector-**S**cript-**A**dapter AKA **`S3A`** is A pure AI Slop, Generated with Human Supervising.  
 this IS NOT RANDOM SHIT BY WISH CODING, we have known we are doing what.
 
 This AI Shit can make you Adapting Janino `2.x` with Custom Compiler Backend,   
@@ -11,7 +11,7 @@ And allow you **delegating classDefine to other Classloader** (we designed this 
 
 
 We're only wiring interface and Janino ABI facade, ECJ Backend is powered by **`ChatGPT™`**.  
-and this meaning Script Compiled Slowed than Janino *`1.75x``* more, but at last **WE HAVE  JAVA 17 SYNTAX SUPPORTS**.
+and this meaning Script Compiled Slowed than Janino *`1.75x`* more, but at last **WE HAVE  JAVA 17 SYNTAX SUPPORTS**.
 
 Wow.
 
@@ -27,4 +27,4 @@ you can enable those features by system properties
 btw, those features also coded by **`ChatGPT™`** , lmao.
 
 and last...  
-Hey Alex ,we think we need Groovy.
+Alex ,we think we need Groovy.
